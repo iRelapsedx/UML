@@ -29,6 +29,7 @@ UML finds the games installed on your PC, identifies what each one is built with
 | **Mod creation** | Mod Studio creates projects from templates, builds them, validates the result and packages it for distribution. |
 | **File inspection** | A read-only inspector for game files and archives, with previews of textures, sounds, text and 3D models. |
 | **Browser games** | Keeps your browser games alongside the rest of your library, opens each one in the browser you choose, and shows the engine and extension options of every installed browser. |
+| **Emulators** | Finds the emulators on your PC and installs emulator mods (Switch and 3DS game mods, texture packs, graphic packs and game patches) into each emulator's own folders, never replacing existing files. A ROM patcher applies IPS, BPS and UPS patches to a copy of your ROM. The emulator list covers 54 actively developed emulators with the games known for mods on each. UML never downloads games, BIOS files, firmware or keys. |
 | **Plugins** | Extends UML with additional detection rules, guides, install rules and more. Plugins contain data only and require your approval for each kind of change. |
 | **AI assistant** | Optional help with modding questions and crash reports, using your own Anthropic API key or a local model. You see exactly what is sent before anything leaves your PC. |
 | **Interface** | Dark and light themes, accent colours, Windows notifications and optional interface sounds. |
@@ -44,7 +45,8 @@ UML finds the games installed on your PC, identifies what each one is built with
 | ![Discover Mods](screenshots/06-discover-mods.png) **Discover Mods** | ![Troubleshooter](screenshots/07-troubleshooter.png) **Troubleshooter** |
 | ![Tutorials](screenshots/09-tutorials.png) **Tutorials** | ![Engine guides](screenshots/10-engine-guides.png) **Engine guides** |
 | ![Mod Studio](screenshots/11-mod-studio.png) **Mod Studio** | ![File Inspector](screenshots/12-file-inspector.png) **File Inspector** |
-| ![Browser games](screenshots/17-browser-games.png) **Browser games** | ![Plugin Center](screenshots/13-plugin-center.png) **Plugin Center** |
+| ![Browser games](screenshots/17-browser-games.png) **Browser games** | ![Emulators](screenshots/18-emulators.png) **Emulators** |
+| ![Emulator list](screenshots/19-emulator-list.png) **Emulator list** | ![Plugin Center](screenshots/13-plugin-center.png) **Plugin Center** |
 | ![AI assistant](screenshots/08-ai-assistant.png) **AI assistant** | ![Getting started](screenshots/14-getting-started.png) **Getting started** |
 | ![Settings](screenshots/15-settings.png) **Settings** | ![Light theme](screenshots/16-home-light-theme.png) **Light theme** |
 
