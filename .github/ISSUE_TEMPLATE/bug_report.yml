@@ -1,0 +1,64 @@
+name: Bug report
+description: Report a problem, crash or error in UML.
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for taking the time to report a problem. Reports are public, so please don't include passwords, API keys or other personal information.
+
+        Reports opened with **Report a problem** in UML already contain your UML and Windows versions.
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: Describe the problem and what you expected to happen instead.
+      placeholder: When I click …, UML shows … instead of …
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: The steps that lead to the problem, if you know them.
+      placeholder: |
+        1. Open …
+        2. Click …
+        3. See the error
+  - type: input
+    id: game
+    attributes:
+      label: Game
+      description: The game involved, if any.
+  - type: input
+    id: uml-version
+    attributes:
+      label: UML version
+      description: Shown in Settings → Data & about.
+      placeholder: "0.13.2"
+    validations:
+      required: true
+  - type: input
+    id: windows-version
+    attributes:
+      label: Windows version
+      placeholder: Windows 11 Home 24H2
+  - type: textarea
+    id: errors
+    attributes:
+      label: Error messages
+      description: Error messages UML showed, if any. Reports opened from UML can include them with personal details removed.
+      render: text
+  - type: textarea
+    id: extra
+    attributes:
+      label: Additional information
+      description: Screenshots, a diagnostics file (Settings → Data & about → Diagnostics for a bug report) or anything else that might help. You can drag files into this box.
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Before submitting
+      options:
+        - label: This report contains no passwords, API keys or other personal information.
+          required: true
